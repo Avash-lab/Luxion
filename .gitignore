@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+*.egg
+*.manifest
+*.spec
+
+# Database files (except if they're part of the project structure)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Build and distribution directories
+build/
+dist/
+Luxion_Deploy/
+Luxion_Final/
+
+# Python installer/executable
+*.exe
+*.bat
+*.spec
+Install_Luxion.bat
+build_installer.bat
+build_single_exe.bat
+
+# Screenshots
+Screenshots/
+
+# Development/testing
+test_openai.py  # If this is just for testing
+
+# Node/JavaScript (if applicable)
+node_modules/
+npm-debug.log*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Config files that might contain sensitive info
+config/  # If it contains API keys or sensitive config
